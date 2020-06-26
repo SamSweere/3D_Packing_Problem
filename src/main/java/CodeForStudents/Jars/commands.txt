@@ -1,0 +1,5 @@
+Command for visualizer:
+java --module-path {path to javafx-sdk-11.0.2\lib} --add-modules=javafx.controls -jar Visualizer.jar pentomino_sample_1.in pentomino_sample_1.out
+
+Command for correctness checker:
+java -jar CorrectnessChecker.jar pentomino_sample_1.in pentomino_sample_1.out
